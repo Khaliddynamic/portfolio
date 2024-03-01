@@ -1,14 +1,15 @@
+
 body {
     margin: 0;
     padding: 0;
-    background : rgb(6, 2, 15);
     color: white;
     width: 100%;
     height: 100%;
     font-family: sans-serif;
+    background-color: black;
     
 }
-header {
+.header {
    color: white;
    padding:7px ;
    display: flex;
@@ -16,13 +17,20 @@ header {
    align-items: center;
    border-bottom: rgb(72, 97, 97) 5px solid;
    border-radius: 20px;
-   
+   box-sizing: border-box;
+   width: 100%; 
+   margin-bottom: 30px;
+   background-color: black;
 }
-img{
-    width: 120px;
-    height: 50px;
+
+.logo a{
+    text-decoration: none;
+    color: white;
     margin: 10px ;
-    padding: 0%;
+    font-size: 20px;
+}
+.logo a span{
+    color: aqua;
 }
 nav ul {
     list-style-type: none ;
@@ -44,47 +52,159 @@ nav ul li a{
 nav a:hover {
     color: aqua;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-#home-section{
-    
-    padding-left: 100px;
-    padding-top: 60px;
-    display: flex;
-    background: url(20240226_192735.jpg);
-    background-position: center;
-    background-size: cover;
+.home-section {
+   
+    width: 100%;
     height: 600px;
- 
-}
-
-h1{
-   font-size: 30px;
- 
-  
-   padding-right: 300px;
-   margin-top: 100px;
-}
-
-h1 span{
-    color: aqua;
-    font-size: 50px;
-}
-#about-section{
-    background-color: rgb(71, 71, 66);
+    margin-top: 10px;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
     margin-bottom: 0;
-    border: 0px;
 }
+.home-section  .text{
+  width: 50%;
+  height: 90%;
+  padding-top: 70px;
+  padding-left: 50px;
 
+}
+.text h3{
+    font-size: 35px;
+    font-family: "Madimi One", sans-serif;
+  font-style: normal;
+  padding-left: 60px;
+  margin-bottom: 0;
+    
+  }
+.text h1{
+    font-size: 40px;
+    color:aqua;
+    letter-spacing: 7px;
+    font-family: "Madimi One", sans-serif;    font-style: normal;
+    padding-left: 60px;
+    filter: drop-shadow(0px 0px 10px rgb(1, 225, 255));
+
+   
+  }
+  .home-section img {
+    width: 600px;
+    height: 600px;
+    filter: drop-shadow(-10px -10px 120px rgb(77, 203, 219));
+    margin-left: 22px;
+
+  }
+  .home-section pre {
+    padding-left: 60px;
+    font-family: "Madimi One", sans-serif;
+    font-size: 20px;
+    letter-spacing: 10px;
+    line-height: 40px;
+   
+  }
+.icon {
+    
+    width: 25%;
+    height: 15%;
+    margin-left: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between ;
+    filter: drop-shadow(0px 0 10px rgb(77, 203, 219));
+    
+}
+.icon a {
+    direction: none;
+    font-size: 35px;
+    color: white; 
+}
+  .line {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(15, 51, 51);
+  }
+.about-section{
+    background-color:black;
+    width: 100%;
+    
+    margin-top: 0; 
+    color: white;
+}
+.about-section h1{
+  padding-left: 100px;
+  color: white;
+  font-size: 35px;
+  font-family: "Madimi One", sans-serif;
+}
+.container {
+  width: 96%;
+  height: 400px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.photo{
+  width: 30%;
+  margin-left: 80px;
+  margin-left: 150px;
+}
+.photo img  {
+  width: 300px;
+  height: 300px;
+  margin-left:20px;
+  border-radius: 13px;
+  filter: drop-shadow(-10px -10px 30px rgb(255, 255, 255));
+
+
+}
+.parag{
+  width: 50%;
+  margin-right: 140px;
+}
+.parag pre{
+  font-size: 26px;
+  font-family: "Madimi One", sans-serif;
+  letter-spacing: 2px;
+  line-height: 75px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.boxes{
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+}
+.boxes .box1 {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(128, 128, 128, 0.548);
+  border-radius: 30px;
+
+}
+.boxes .box2 {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(128, 128, 128, 0.548);
+  border-radius: 30px;
+
+}
+.boxes .box3 {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(128, 128, 128, 0.548);
+  border-radius: 30px;
+}
+.boxes h2 {
+  text-align: center;
+  margin-top: 135px;
+  margin-bottom: 0;
+  font-size: 50px;
+  padding: 0;
+}
+.skills-section h1{
+  padding-left: 100px;
+  color: white;
+  font-size: 35px;
+  font-family: "Madimi One", sans-serif;
+}
+  
